@@ -13,21 +13,22 @@
 // alert( "Mul=" + calculator.mul() );
 
 function Calculator() {
-  this.sum = function() {
+  this.sum = () => {
     return this.valueOne + this.valueTwo;
   };
 
-  this.mul = function() {
+  this.mul = () => {
     return this.valueOne * this.valueTwo;
   };
 
-  this.read = function() {
+  this.read = () => {
     this.valueOne = +prompt('Введите число', 0);
     this.valueTwo = +prompt('Введите число', 0);
   };
 }
 
 let calculator = new Calculator();
+
 calculator.read();
 
 alert( "Sum=" + calculator.sum() );
