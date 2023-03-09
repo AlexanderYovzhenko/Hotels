@@ -3,7 +3,7 @@
 </p>
 
 <p>
-  <h2 align="center">Endpoint Documentation</h2>
+  <h2 align="center">Endpoints Documentation</h2>
 
   <h3>Home <a href="http://localhost:4000/" target="blank">localhost:4000</a> - home page, check if the server is running</h3>
 
@@ -21,12 +21,12 @@
     </li>
     <li><h3><u>localhost:4000/genres</u></h3> 
       <ul>
-        <li><font color="4040ff">POST</font> <u>genres</u> - add genre</li><br> 
-        <li><font color="green">GET</font> <u>genres</u> - get all genres</li><br>
-        <li><font color="green">GET</font> <u>genres/:id</u> - get genre by id</li><br>
-        <li><font color="green">GET</font> <u>genres/movies/comedy</u> - get all movies by genre</li><br>
-        <li><font color="yellow">PUT</font> <u>genres/:id</u> - update genre by id</li><br>
-        <li><font color="red">DELETE</font> <u>genres/:id</u> - delete genre by id</li><br>
+        <li><font color="4040ff">POST</font> <br> <u>genres</u> - add genre</li><br> 
+        <li><font color="green">GET</font> <br> <u>genres</u> - get all genres</li><br>
+        <li><font color="green">GET</font> <br> <u>genres/:id</u> - get genre by id</li><br>
+        <li><font color="green">GET</font> <br> <u>genres/movies/comedy</u> - get all movies by genre</li><br>
+        <li><font color="yellow">PUT</font> <br> <u>genres/:id</u> - update genre by id</li><br>
+        <li><font color="red">DELETE</font> <br> <u>genres/:id</u> - delete genre by id</li><br>
       </ul>
     </li>
 </ul>
@@ -35,7 +35,6 @@
 ## JSON for request body is in the UTILS folder
 
 <hr style="height:30px">
-<br>
 
 ## Downloading
 
